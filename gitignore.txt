@@ -1,0 +1,15 @@
+# Ignorar arquivos de sistema e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar arquivo de dados locais (onde seus links salvos ficam)
+# Isso garante que se você rodar localmente, seus links pessoais não subam pro GitHub público
+dados_legaldesk.json
+links_temp.json
+
+# Ignorar envs virtuais
+.env
+.venv
+env/
+venv/
